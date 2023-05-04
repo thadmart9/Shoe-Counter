@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Shoe Quantity Inc.</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="maincol">
+            <img class="shoephoto" src="shoe.jpeg" alt="">
+            <div class="rightcol">
+                <div class="caption">
+                    <h1>Nike Shoe</h1>
+                    <p>Featuring a lightweight yet durable construction, this shoe is crafted from premium materials that provide a comfortable fit and long-lasting support.</p>
+                </div>
+                <div class="counter">
+                    <img id="minus" onclick="decrease()" src="minus.svg" alt="decrease button">
+                    <p id="count" class="quant">1</p>
+                    <img id="plus" onclick="increment()" src="add.svg" alt="increase button">
+                        
+                </div>
+            </div>
+        </div>
+
+        <div class="cta">
+            <button>Buy</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
